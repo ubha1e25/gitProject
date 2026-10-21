@@ -3,7 +3,7 @@
 #include <string>
 #include <thread>
 
-std::string versionDesc = "Sudoken! v1.12.0\n\n";
+std::string versionDesc = "Sudoken! v1.12.1\n\n";
 
 void loadBoardFromFile(std::string& filename, int board[9][9]) {
     std::ifstream file(filename);
